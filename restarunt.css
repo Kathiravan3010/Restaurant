@@ -1,0 +1,402 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#parent{        
+display: flex;            
+justify-content: space-around;
+}
+address{
+    background-color: blueviolet;
+    text-align: center;
+    opacity: 0.9;
+    height: 350px;
+    width: 600px;
+    color: beige;
+    font-size: 30px;
+    font-family: Trattatello, fantasy;
+    padding-top: 50px;
+    margin-left: 100px;
+    border-radius: 20px;
+}
+.map{
+    margin-left: 100px;
+}
+#ll{
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 650px;
+    border-radius: 100px;
+}
+#ll:hover{
+    transform: scale(0.9);
+}
+ul{
+    top: 0px;
+    position: sticky;
+    display: flex;
+    z-index:1;
+    justify-content: space-evenly;
+    height: 50px;
+    list-style-type: none;
+}
+#nav{
+    top: 0px;
+    position: sticky;
+    background-color:  rgba(228, 228, 121, 0.534);
+    backdrop-filter:blur(20px); 
+    padding: 20px;
+    margin-top: 50px;
+    z-index: 1;
+}
+#font{
+    font-size: 25px;
+    margin-top: 10px;
+    color: aqua;
+}
+#prt{
+     display: flex;
+     justify-content: space-evenly;
+}
+li{
+    text-decoration: none;
+    color: beige;
+}
+#k{
+    font-family: cursive;
+    font-size: 18px;
+    border-bottom: none;
+    list-style-type: none;
+    top: 0px;
+    position: sticky;
+    display: flex;
+    z-index:1;
+    justify-content: space-evenly;
+    height: 50px;
+}
+.k{
+    font-size: 30px;
+    font-family: cursive;
+    border-bottom: none;
+    list-style-type: none;
+    margin-top: 10px;
+    display: flex;
+    z-index:-1;
+    justify-content: center;
+    height: 50px;
+}
+body{
+    background-color: rgba(55, 21, 8, 0.642);
+}
+#animate{
+    width:300px;
+    height:250px;
+    background-image: url(images/a.jpeg);
+    background-repeat: no-repeat;
+    background-size:300px 250px;
+    animation-name: food;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    border-radius: 30px;
+}
+@keyframes food{
+25%{
+    background-image:url(images/dosa1.jpg);
+}    
+50%{
+   background-image: url(images/idali.jpeg);
+}
+75%{
+    background-image: url(images/veraty\ rice.jpg);
+}
+100%{
+   background-image: url(images/a.jpeg);
+}
+}
+#footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(176, 131, 41);
+    border:4px solid rgb(82, 73, 55);
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 30px;
+    color: rgba(231, 7, 7, 0.636);
+}
+.jj{
+    line-height: 30px;
+    font-family: cursive;
+}
+::placeholder{
+    color: beige;
+}
+#user{
+    padding: 4px 60px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 3px solid wheat;
+    color: azure;
+    outline: none;
+}
+#number{
+    padding: 4px 60px;
+    border: none;
+    color: azure;
+    background-color: transparent;
+    border-bottom: 3px solid wheat;
+    outline: none;
+}
+#sub{
+    margin-top: 20px;
+    padding: 5px 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: cyan;
+}
+.Details{
+    margin-top:20px;
+    padding: 5px 30px;
+    border-radius: 30px;
+    border: none;
+    background-color: cyan;
+}
+#sub:hover{
+    box-shadow:rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+     rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+      rgba(0, 0, 0, 0.06) 0px 2px 1px,
+       rgba(0, 0, 0, 0.09) 0px 4px 2px,
+        rgba(0, 0, 0, 0.09) 0px 8px 4px,
+         rgba(0, 0, 0, 0.09) 0px 16px 8px, 
+   rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    cursor: pointer;
+}
+.Details:hover{
+    box-shadow:rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+     rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+      rgba(0, 0, 0, 0.06) 0px 2px 1px,
+       rgba(0, 0, 0, 0.09) 0px 4px 2px,
+        rgba(0, 0, 0, 0.09) 0px 8px 4px,
+         rgba(0, 0, 0, 0.09) 0px 16px 8px, 
+   rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    cursor: pointer;
+}
+.uu{
+    font-size: 30px;
+}
+.ff{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+}
+#add{
+    color: aliceblue;
+    font-size: 20px;
+    z-index: 1;
+}
+#demo{
+    color: aliceblue;
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+    color: rgb(240, 255, 255);
+}
+@media screen and (max-width:320px) {
+    #parent{        
+        display: block;            
+        justify-content: space-around;
+        }
+        address{
+            background-color: blueviolet;
+            text-align: center;
+            opacity: 0.9;
+            height: 250px;
+            width: 300px;
+            color: beige;
+            font-size: 20px;
+            font-family: Trattatello, fantasy;
+            padding-top: 50px;
+            border-radius: 20px;
+        }
+        .map{
+            margin-left: 100px;
+        }
+        #ll{
+            margin-top: 50px;
+            margin-left: 650px;
+            border-radius: 100px;
+        }
+        #ll:hover{
+            transform: scale(0.9);
+        }
+        ul{
+            top: 0px;
+            position: sticky;
+            display: block;
+            z-index:1;
+            justify-content: space-evenly;
+            height: 50px;
+            list-style-type: none;
+        }
+        #nav{
+            top: 0px;
+            position: sticky;
+            background-color:  rgba(228, 228, 121, 0.534);
+            backdrop-filter:blur(20px); 
+            padding: 20px;
+            margin-top: 50px;
+            z-index: 1;
+        }
+        #prt{
+             display: block;
+             justify-content: space-evenly;
+        }
+        li{
+            text-decoration: none;
+            color: beige;
+        }
+        #k{
+            font-family: cursive;
+            font-size: 15px;
+            border-bottom: none;
+            list-style-type: none;
+            top: 0px;
+            position: sticky;
+            display: block;
+            z-index:1;
+            justify-content: space-evenly;
+            height: 50px;
+        }
+        .k{
+            font-size: 15px;
+            font-family: cursive;
+            border-bottom: none;
+            list-style-type: none;
+            margin-top: 10px;
+            display: block;
+            z-index:-1;
+            justify-content: center;
+            height: 50px;
+        }
+        body{
+            background-color: rgba(55, 21, 8, 0.642);
+        }
+        #animate{
+            width:300px;
+            height:250px;
+            background-image: url(images/a.jpeg);
+            background-repeat: no-repeat;
+            background-size:300px 250px;
+            animation-name: food;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            border-radius: 30px;
+        }
+        @keyframes food{
+        25%{
+            background-image:url(images/dosa1.jpg);
+        }    
+        50%{
+           background-image: url(images/idali.jpeg);
+        }
+        75%{
+            background-image: url(images/veraty\ rice.jpg);
+        }
+        100%{
+           background-image: url(images/a.jpeg);
+        }
+        }
+        #footer{
+            display: block;
+            justify-content: space-evenly;
+            background-color: rgb(176, 131, 41);
+            border:4px solid rgb(82, 73, 55);
+            overflow: hidden;
+            border-radius: 10px;
+            padding: 30px;
+            color: rgba(231, 7, 7, 0.636);
+        }
+        .jj{
+            line-height: 30px;
+            font-family: cursive;
+        }
+        ::placeholder{
+            color: beige;
+        }
+        #user{
+            padding: 4px 60px;
+            border: none;
+            background-color: transparent;
+            border-bottom: 3px solid wheat;
+            color: azure;
+            outline: none;
+        }
+        #number{
+            padding: 4px 60px;
+            border: none;
+            color: azure;
+            background-color: transparent;
+            border-bottom: 3px solid wheat;
+            outline: none;
+        }
+        #sub{
+            margin-top: 20px;
+            padding: 5px 30px;
+            border: none;
+            border-radius: 30px;
+            background-color: cyan;
+        }
+        .Details{
+            margin-top:20px;
+            padding: 5px 30px;
+            border-radius: 30px;
+            border: none;
+            background-color: cyan;
+        }
+        #sub:hover{
+            box-shadow:rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+            rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+             rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+              rgba(0, 0, 0, 0.06) 0px 2px 1px,
+               rgba(0, 0, 0, 0.09) 0px 4px 2px,
+                rgba(0, 0, 0, 0.09) 0px 8px 4px,
+                 rgba(0, 0, 0, 0.09) 0px 16px 8px, 
+           rgba(0, 0, 0, 0.09) 0px 32px 16px;
+            cursor: pointer;
+        }
+        .Details:hover{
+            box-shadow:rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+            rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+             rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+              rgba(0, 0, 0, 0.06) 0px 2px 1px,
+               rgba(0, 0, 0, 0.09) 0px 4px 2px,
+                rgba(0, 0, 0, 0.09) 0px 8px 4px,
+                 rgba(0, 0, 0, 0.09) 0px 16px 8px, 
+           rgba(0, 0, 0, 0.09) 0px 32px 16px;
+            cursor: pointer;
+        }
+        .uu{
+            font-size: 30px;
+        }
+        .ff{
+            display: block;
+            justify-content: space-evenly;
+            font-size: 30px;
+        }
+        #add{
+            color: aliceblue;
+            font-size: 20px;
+            z-index: 1;
+        }
+        #demo{
+            color: aliceblue;
+            font-size: 40px;
+        }
+        a{
+            text-decoration: none;
+            color: rgb(240, 255, 255);
+        }
+} 

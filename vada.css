@@ -1,0 +1,88 @@
+body{
+    background-image: url(images/blur.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#parent{
+    margin: 0 auto;
+    padding: 80px;
+    width: 500px;
+    height: 550px;
+    background-color: rgb(31, 36, 50);
+    box-shadow: 0 0 25px rgb(31, 36, 50);
+    border-radius: 30px;
+}
+#m{
+   margin:auto;
+     width: 400px;
+    height: 400px;
+    background-image: url(images/vada-4.jpeg);
+    background-repeat: no-repeat;
+    background-size: 400px 400px;
+    animation-name: food;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    border-radius: 30px;
+}
+#im{
+    margin: 50px auto; 
+}
+#im p{
+    width: 300px;
+    font-size: 20px;
+    margin: 20px auto;
+}
+@keyframes food{
+    25%{
+      background-image: url(images/vada-1.jpg);
+    }
+    50%{
+        background-image: url(images/vada-2.jpg);
+    }
+    75%{
+        background-image: url(images/vada-3.jpg);
+    }
+    100%{
+        background-image: url(images/vada-4.jpeg);
+    }
+}
+#im p{
+    background-color: aquamarine;
+    text-align: center;
+    border-radius: 30px;
+}
+#ptr{
+    display: flex;
+    justify-content: space-evenly;
+    width: 350px;
+    height: 40px;
+    margin: 0px auto;
+    outline: cyan;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+#ptr button{ 
+   background-color: cyan;
+   border-radius: 30px;
+   padding: 5px 40px;
+   font-weight: 600;
+   border:none; 
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px cyan,
+        0 0 25px cyan, 0 0 50px cyan,
+        0 0 25px cyan, 0 0 50px cyan; 
+}
+#ptr input{
+    width: 100px;
+    border-radius: 30px;
+    padding: 5px 30px;
+    border: none;
+}
+#ptr input:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px cyan,
+        0 0 25px cyan, 0 0 50px cyan,
+        0 0 25px cyan;
+}

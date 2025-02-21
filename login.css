@@ -1,0 +1,108 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#parent{        
+display: flex;            
+justify-content: space-around;
+}
+
+#ll{
+    display: flex;
+    margin-left: 850px;
+    width: 200px;
+    height: 30px;
+}
+
+#ww{
+    width: 50px;
+    height: 30px;
+    border-radius: 70px;
+}
+
+#prt{
+    width: 600px;
+    height: 500px;
+    margin:100px auto;
+    background-color: rgba(139, 139, 131, 0.422);
+    backdrop-filter: blur (20px);
+    border-radius: 20px;
+}
+
+.ss{
+    margin:50px 150px auto;
+    line-height: 50px;
+    width: 200px;
+    font-size: 15px;
+}
+
+input{
+    padding: 12px;
+    width: 300px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgba(39, 39, 38, 0.422);
+    background-color: rgba(139, 139, 131, 0.422);
+}
+
+#log{
+    color: rgb(18, 18, 18);
+    text-align: center;
+    font-family: cursive;
+}
+
+p{
+    margin-top: 30px;
+    margin-left: 350px;
+    word-spacing: 2px;
+    font-size: small;
+    color: rgb(5, 5, 97);
+}
+
+#ck{
+    position:relative;
+    right:140px;
+    top: 1px;
+    font-size: 15px;
+}
+
+.vk{
+    position: relative;
+    top: 3px;
+}
+
+span{
+    position: relative;
+    left: 260px;
+}
+
+.icon{
+    position: relative;
+    left: 270px;
+    color: antiquewhite;
+}
+
+.all{
+    width: 420px;
+    margin-left: 100px;
+    height: 40px;
+    border: none;
+    color: antiquewhite;
+    border-radius: 10px;
+    background-color: blue;
+    font-family: cursive;
+}
+
+.all:hover{
+    cursor: pointer;
+}
+
+body{
+    background-color: rgb(2, 34, 50);
+}
+
+h1{
+    font-family: cursive;
+    font-size: 20px;
+}

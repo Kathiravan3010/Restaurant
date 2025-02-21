@@ -1,0 +1,70 @@
+h3{
+    margin-top: 30px;
+    width: 600px;
+    height: 250px;
+    background-image: url(a.jpeg);
+    background-repeat: no-repeat;
+    background-size: 600px 250px;
+    animation-name: food;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    border-radius: 30px;
+}
+
+@keyframes food{
+25%{
+    background-image:url(dosa1.jpg);
+}    
+50%{
+   background-image: url(idali.jpeg);
+}
+75%{
+    background-image: url(veraty\ rice.jpg);
+}
+100%{
+   background-image: url(a.jpeg);
+}
+}
+
+#footer{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    background-color: antiquewhite;
+    border: solid 20px burlywood;
+}
+
+#in{
+    position: absolute;
+    top: 170px;
+    right:150px;
+    display: flex;
+    border: solid 4px burlywood;
+}
+
+.jj{
+    margin-left: 200px;
+    line-height: 30px;
+    font-family: cursive;
+}
+
+#se{
+    padding-left: 200px;
+    padding: 4px 60px;
+    border: none;
+}
+
+#yy{
+    width: 100px;
+    height: 30px;
+}
+
+#yy:hover{
+    background-color: burlywood;
+    cursor: pointer;
+}
+
+.uu{
+    font-size: 30px;
+}

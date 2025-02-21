@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" href="images/veg logo.png">
+    <link rel="stylesheet" href="morningbreakfast.css">
+    <script src="jquery.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>K.S PURE VEG RESTARUNT (VIZAG)</title>
+</head>
+<body>
+ <ul class="k">
+    <i id="font" class="fa-solid fa-house"></i><li><a href="home.html">Home</a></li>
+    <i id="font" class="fa-regular fa-address-book"></i><li><a href="restarunt.html">Restaurant Contact</a></li>
+    <i id="font" class="fa-solid fa-user"></i><li><a href="login.html">Logout</a></li>
+ </ul>
+    <img class="l" src="images/logo.jpg">
+<div id="nav">
+    <ul id="k">
+       <li><a class="bc" href="morningbreakfast.html">MORNING   BREAKFAST</a></li>
+       <li><a href="afternoon.html">AFTERNOON   LUNCH</a></li>
+       <li><a href="night dineer.html">NIGHT    DINEER</a></li>
+       <li><a href="coffee.html">MORNING   TEA & COFEE</a></li>
+       <li><a href="fruit juice.html">AFTERNOON  SPECIAL  FRUITS   JUICE</a></li>
+       <li><a href="eveningspecial.html">EVENING   SPECIAL   SNACKS</a></li>
+    </ul>
+</div><br> 
+<div id="parent">
+  <div class="c1">
+      <a href="idli.html"><img class="a" src="images/menu-idlis-idli.png" width="200px" height="150px"></a>
+      <a href="idli.html"><img class="b" src="images/idali.jpeg" width="200px" height="150px"></a><br>
+      <a href="idli.html"><img class="c" src="images/idali3.jpeg" width="200px" height="150px"></a>
+      <a href="idli.html"><img class="d" src="images/idali 4.jpg" width="200px" height="150px"></a>
+      <p>Very Tastiy idli is Expespecialy<br> 
+          sambar idli,rava idli,ots idli.<br>
+          Very Qulaity Food.You & Your<br> 
+          Family Try Now.</p><br>
+          <a href="idli.html"><button id="qq">Order Place Now</button></a>
+          <select name="list-style-type" id="select">
+              <option>Order</option>
+              <option>Sambar idli</option>
+              <option>Rava idli</option>
+              <option>Ots idli</option>
+          </select> 
+          <div id="ad">
+          <i onclick="add()" class="fa-solid fa-plus"></i>
+           <p id="item"></p>
+         <i onclick="del()" class="fa-solid fa-minus"></i> 
+         </div> 
+  </div>
+      <script>
+  var y=document.getElementById("item")
+       let a=0;
+      function add(){
+        a +=1;
+        y.innerHTML = a;
+
+      }
+      function del(){
+        a -= 1;
+        y.innerHTML = a;
+      }
+      </script>        
+  <div class="c1">
+      <a href="vada.html"><img src="images/vada-1.jpg" width="200px" height="150px"></a>
+      <a href="vada.html"><img src="images/vada-2.jpg" width="200px" height="150px"></a><br>
+      <a href="vada.html"><img src="images/vada-3.jpg" width="200px" height="150px"></a>
+      <a href="vada.html"><img src="images/vada-4.jpeg" width="200px" height="150px"></a>
+      <p>Very Tastiy Vada is Expespecialy<br> 
+          Sambar Vada,Malgu Vada,Paal Vada.<br>
+          Very Qulaity Food.<br> 
+          You & Your Family Try Now.</p><br>
+          <a href="vada.html"><button id="nn">Order Place Now</button></a>
+          <select name="list-style-type" id="select">
+              <option>Order</option>
+              <option>Sambar Vada</option>
+              <option>Malgu Vada</option>
+              <option>Paal Vada</option>
+              <option>Masal Vada</option>
+          </select>
+          <div id="a">
+              <i onclick="adds()" class="fa-solid fa-plus"></i>
+               <p id="items"></p>
+             <i onclick="dels()" class="fa-solid fa-minus"></i> 
+             </div> 
+      </div>
+          <script>
+      var k=document.getElementById("items")
+           let f=0;
+          function adds(){
+            f +=1;
+            k.innerHTML = f;
+          }
+          function dels(){
+            f -= 1;
+            k.innerHTML = f;
+          }
+          </script>    
+  <div class="c1">
+      <a href="dosa.html"><img src="images/dosa1.jpg" width="200px" height="150px"></a>
+      <a href="dosa.html"><img src="images/dosa2.jpg" width="200px" height="150px"></a><br>
+      <a href="dosa.html"><img src="images/dosa3.jpeg" width="200px" height="150px"></a>
+      <a href="dosa.html"><img src="images/dosa4.jpg" width="200px" height="150px"></a>
+      <p>Very Tastiy Dosa is Expespecialy <br>
+           Normal Dosa,Rava Dosa,Chees Dosa.<br>
+           Very Qulaity Food.You & Your <br>
+           Family Try Now.</p><br>
+          <a href="dosa.html"><button id="mm">Order Place Now</button></a>
+          <select name="list-style-type" id="select">
+              <option>Order</option>
+              <option>Normal Dosa</option>
+              <option>Rava Dosa</option>
+              <option>Chees Dosa</option>
+              <option>Masal Dosa</option>
+          </select>
+          <div id="d">
+              <i onclick="addd()" class="fa-solid fa-plus"></i>
+               <p id="itemss"></p>
+             <i onclick="dl()" class="fa-solid fa-minus"></i> 
+          </div>
+      </div>                 
+          <script>
+      var z=document.getElementById("itemss");
+           let c=0;
+          function addd(){
+            c +=1;
+            z.innerHTML = c;
+          }
+          function dl(){
+            c -= 1;
+            z.innerHTML = c;
+          }
+      </script> 
+</div><br>
+<div id="parent2">
+  <div class="c2">
+      <img class="a" src="images/images (1).jpeg" width="300px" height="300px">
+      <p> Very Qulaity Food.<br>
+        You & Your Family Try Now.</p><br>
+          <a href="orderplace.html"><button id="qw">Order Now</button></a>
+          <div id="sa">
+          <i onclick="om()" class="fa-solid fa-plus"></i>
+           <p id="ie"></p>
+         <i onclick="pm()" class="fa-solid fa-minus"></i> 
+         </div> 
+  </div>
+      <script>
+  var yt=document.getElementById("ie")
+       let ar=0;
+      function om(){
+        ar +=1;
+        yt.innerHTML = ar;
+      }
+      function pm(){
+        ar -= 1;
+        yt.innerHTML = ar;
+      }
+      </script>        
+  <div class="c2">
+      <img src="images/images (2).jpeg" width="300px" height="300px">
+      <p>Very Qulaity Food.<br> 
+          You & Your Family Try Now.</p><br>
+          <a href="orderplace.html"><button id="nw">Order Now</button></a>
+          <div id="b">
+              <i onclick="adi()" class="fa-solid fa-plus"></i>
+               <p id="int"></p>
+             <i onclick="dit()" class="fa-solid fa-minus"></i> 
+             </div> 
+      </div>
+          <script>
+      var kt=document.getElementById("int")
+           let ft=0;
+          function adi(){
+            ft +=1;
+            kt.innerHTML = ft;
+          }
+          function dit(){
+            ft -= 1;
+            kt.innerHTML = ft;
+          }
+          </script>    
+  <div class="c2">
+      <img src="images/images (3).jpeg" width="300px" height="300px">
+      <p>Very Qulaity Food.<br>
+           You & Your Family Try Now.</p><br>
+          <a href="orderplace.html"><button id="mw">Order Now</button></a>
+          <div id="c">
+              <i onclick="ayt()" class="fa-solid fa-plus"></i>
+               <p id="iemt"></p>
+             <i onclick="slt()" class="fa-solid fa-minus"></i> 
+          </div>
+      </div>                 
+          <script>
+      var zt=document.getElementById("iemt");
+           let ct=0;
+          function ayt(){
+            ct +=1;
+            zt.innerHTML = ct;
+          }
+          function slt(){
+            ct -= 1;
+            zt.innerHTML = ct;
+          }
+      </script>
+  </div><br> 
+  <div id="parent3">
+    <div class="c3">
+        <img class="a" src="images/images (4).jpeg" width="300px" height="300px">
+        <p> Very Qulaity Food.<br>
+          You & Your Family Try Now.</p><br>
+            <a href="orderplace.html"><button id="qw">Order Now</button></a>
+            <div id="sa">
+            <i onclick="ads()" class="fa-solid fa-plus"></i>
+             <p id="ite"></p>
+           <i onclick="des()" class="fa-solid fa-minus"></i> 
+           </div> 
+    </div>
+        <script>
+    var yz=document.getElementById("ite")
+         let as=0;
+        function ads(){
+          as +=1;
+          yz.innerHTML = as;
+        }
+        function des(){
+          as -= 1;
+          yz.innerHTML = as;
+        }
+        </script>        
+    <div class="c3">
+        <img src="images/images (5).jpeg" width="300px" height="300px">
+        <p>Very Qulaity Food.<br> 
+            You & Your Family Try Now.</p><br>
+            <a href="orderplace.html"><button id="nw">Order Now</button></a>
+            <div id="b">
+                <i onclick="ad()" class="fa-solid fa-plus"></i>
+                 <p id="it"></p>
+               <i onclick="de()" class="fa-solid fa-minus"></i> 
+               </div> 
+        </div>
+            <script>
+        var ks=document.getElementById("it")
+             let fs=0;
+            function ad(){
+              fs +=1;
+              ks.innerHTML = fs;
+            }
+            function de(){
+              fs -= 1;
+              ks.innerHTML = fs;
+            }
+            </script>    
+    <div class="c3">
+        <img src="images/images (6).jpeg" width="300px" height="300px">
+        <p>Very Qulaity Food.<br>
+             You & Your Family Try Now.</p><br>
+            <a href="orderplace.html"><button id="mw">Order Now</button></a>
+            <div id="c">
+                <i onclick="ay()" class="fa-solid fa-plus"></i>
+                 <p id="iem"></p>
+               <i onclick="sl()" class="fa-solid fa-minus"></i> 
+            </div>
+        </div>                 
+            <script>
+        var zs=document.getElementById("iem");
+             let cs=0;
+            function ay(){
+              cs +=1;
+              zs.innerHTML = cs;
+            }
+            function sl(){
+              cs -= 1;
+              zs.innerHTML = cs;
+            }
+        </script>
+    </div><br>
+    <div id="parent4">
+      <div class="c4">
+          <img class="a" src="images/images (7).jpeg" width="300px" height="300px">
+          <p> Very Qulaity Food.<br>
+            You & Your Family Try Now.</p><br>
+              <a href="orderplace.html"><button id="qw">Order Now</button></a>
+              <div id="sa">
+              <i onclick="ot()" class="fa-solid fa-plus"></i>
+               <p id="ti"></p>
+             <i onclick="pt()" class="fa-solid fa-minus"></i> 
+             </div> 
+      </div>
+          <script>
+      var yr=document.getElementById("ti")
+           let tr=0;
+          function ot(){
+            tr +=1;
+            yr.innerHTML = tr;
+          }
+          function pt(){
+            tr -= 1;
+            yr.innerHTML = tr;
+          }
+          </script>        
+      <div class="c4">
+          <img src="images/images (8).jpeg" width="300px" height="300px">
+          <p>Very Qulaity Food.<br> 
+              You & Your Family Try Now.</p><br>
+              <a href="orderplace.html"><button id="nw">Order Now</button></a>
+              <div id="b">
+                  <i onclick="adm()" class="fa-solid fa-plus"></i>
+                   <p id="inr"></p>
+                 <i onclick="dim()" class="fa-solid fa-minus"></i> 
+                 </div> 
+          </div>
+              <script>
+          var kr=document.getElementById("inr")
+               let fr=0;
+              function adm(){
+                fr +=1;
+                kr.innerHTML = fr;
+              }
+              function dim(){
+                fr -= 1;
+                kr.innerHTML = fr;
+              }
+              </script>    
+      <div class="c4">
+          <img src="images/images (9).jpeg" width="300px" height="300px">
+          <p>Very Qulaity Food.<br>
+               You & Your Family Try Now.</p><br>
+              <a href="orderplace.html"><button id="mw">Order Now</button></a>
+              <div id="c">
+                  <i onclick="ato()" class="fa-solid fa-plus"></i>
+                   <p id="iemto"></p>
+                 <i onclick="slto()" class="fa-solid fa-minus"></i> 
+              </div>
+          </div>                 
+              <script>
+          var zo=document.getElementById("iemto");
+               let co=0;
+              function ato(){
+                co +=1;
+                zo.innerHTML = co;
+              }
+              function slto(){
+                co -= 1;
+                zo.innerHTML = co;
+              }
+          </script>
+      </div><br>     
+<div id="dd">
+<video src="videos/tea video.mp4" muted autoplay loop play-inline width="1600px" height="200px"></video>
+<video autoplay muted loop play-inline  src="videos/coffee video.mp4" width="1600px" height="200px"></video>
+</div><br>
+<h1 id="demo"></h1> 
+    <div id="footer">
+      <div id="animate"></div>
+        <div class="jj">
+            <h4>Newsletters</h4><br>
+            <h2 class="uu">Get Our Single Menu Notifications</h2><br>
+            <input type="checkbox" required><label>Regular Updates</label>
+            <input type="checkbox" required><label>Weekly Updates</label>
+            <input type="checkbox" required><label>Monthly Updates</label>
+        </div>   
+        <div id="in">
+            <div>
+            <i class="fa-solid fa-envelope"></i><input id="user" type="email" placeholder="Enter Your Email" required><br>
+            <i class="fa-solid fa-envelope"></i><input id="number" type="number" placeholder="Enter Your Number" required>
+            </div>
+            <div>
+            <button onclick="set()" id="yy">Subscribe</button>
+            <button onclick="get()" class="Details">Details</button>
+            </div>
+        </div><br>
+        <div class="ff">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+        </div>
+    </div>
+    <script>
+         var b=document.getElementById('add');
+         var ao=0;
+    function set(){
+       alert("Subscribed");
+       ao+=1;
+       b.innerHTML=ao;
+       var userid = document.getElementById("user").value;
+         var phone = document.getElementById("number").value;
+        const myObj = { name: userid, mobile: phone };
+        const myJSON = JSON.stringify(myObj);
+        const key = "user"+phone;
+        localStorage.setItem(key, myJSON); 
+    }
+    function get(){
+        var bo=document.getElementById('number').value;
+        const key="user"+bo;
+        const json=localStorage.getItem(key);
+        document.getElementById('demo').innerHTML=json;
+    }
+    </script>
+    <script>
+        $(document).ready(
+            function(){
+            $("i").click(
+                function(){
+                    $(this).css({"color":"yellow"})
+                }
+            );
+            $("i").dblclick(
+                function(){
+                    $(this).css({"color":"rgba(231, 7, 7, 0.636)"})
+                }
+            );    
+        }
+    );
+</script>
+</body>
+</html>

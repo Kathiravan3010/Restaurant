@@ -1,0 +1,380 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#parent{        
+display: flex;            
+justify-content: space-around;
+}
+ul{
+    list-style-type: none;
+    top: 0px;
+    position: sticky;
+    display: flex;
+    z-index:1;
+    justify-content: space-evenly;
+    height: 50px;
+}
+#font{
+    font-size: 25px;
+    margin-top: 10px;
+    color: aqua;
+}
+#nav{
+    top: 0px;
+    position: sticky;
+    background-color: rgba(228, 228, 121, 0.534);
+    backdrop-filter:blur(20px); 
+    padding-top: 30px;
+    margin-top: 50px;
+    z-index: 1;
+}
+.n{
+    margin-top: 50px;
+    border-radius: 100px;
+    margin-left: 650px;
+}
+#nav a{
+    color: antiquewhite;
+}
+#f{
+    background-color: rgb(167, 100, 12);
+    width: 80px;
+}
+#aa{
+    background-color: rgb(8, 194, 255);
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+}
+#aa:hover{
+    cursor: pointer;
+    box-shadow:rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+     rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+      rgba(0, 0, 0, 0.06) 0px 2px 1px,
+       rgba(0, 0, 0, 0.09) 0px 4px 2px,
+        rgba(0, 0, 0, 0.09) 0px 8px 4px,
+         rgba(0, 0, 0, 0.09) 0px 16px 8px, 
+   rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+#bb{
+    background-color: rgb(8, 194, 255);
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+}
+#bb:hover{
+    cursor: pointer;
+    box-shadow:rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+     rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+      rgba(0, 0, 0, 0.06) 0px 2px 1px,
+       rgba(0, 0, 0, 0.09) 0px 4px 2px,
+        rgba(0, 0, 0, 0.09) 0px 8px 4px,
+         rgba(0, 0, 0, 0.09) 0px 16px 8px, 
+   rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+#cc{
+    background-color: rgb(8, 194, 255);
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+}
+#cc:hover{
+    cursor: pointer;
+    box-shadow:rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+     rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+      rgba(0, 0, 0, 0.06) 0px 2px 1px,
+       rgba(0, 0, 0, 0.09) 0px 4px 2px,
+        rgba(0, 0, 0, 0.09) 0px 8px 4px,
+         rgba(0, 0, 0, 0.09) 0px 16px 8px, 
+   rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+button:hover{
+    color:bisque;
+}
+p{
+    border-radius: 10px;
+    text-align: center;
+    color:beige;
+}
+img{
+    border-radius: 15px;
+}
+img:hover{
+   transform: scale(0.9);
+}
+select{
+    height: 40px;
+    border-radius: 10px;
+    background-color: burlywood;
+    width: 100px;
+}
+.l{
+    border-radius: 30px;
+}
+a{
+    text-decoration: none;
+}
+.k{
+    font-size: 30px;
+    font-family: cursive;
+    border-bottom: none;
+    list-style-type: none;
+    margin-top: 10px;
+    display: flex;
+    z-index:1;
+    justify-content: center;
+    height: 50px;
+}
+#k{
+    font-family: cursive;
+    font-size: 18px;
+    border-bottom: none;
+    list-style-type: none;
+    top: 0px;
+    position: sticky;
+    display: flex;
+    z-index:1;
+    justify-content: space-evenly;
+    height: 50px;
+}
+a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+a:hover{
+    color: rgb(139, 15, 15);
+}
+.c1{
+    background-color: rgba(104, 12, 18, 0.59);
+    border-radius: 20px;
+    padding: 30px;
+}
+body{
+    background-color: rgba(55, 21, 8, 0.642); 
+}
+#ad{
+    display: flex;
+    position: absolute;
+    margin-left: 350px;
+    margin-top: -30px;
+}
+#animate{
+    width:300px;
+    height:250px;
+    background-image: url(images/a.jpeg);
+    background-repeat: no-repeat;
+    background-size:300px 250px;
+    animation-name: food;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    border-radius: 30px;
+}
+@keyframes food{
+25%{
+    background-image:url(images/dosa1.jpg);
+}    
+50%{
+   background-image: url(images/idali.jpeg);
+}
+75%{
+    background-image: url(images/veraty\ rice.jpg);
+}
+100%{
+   background-image: url(images/a.jpeg);
+}
+}
+#footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(176, 131, 41);
+    border:4px solid rgb(82, 73, 55);
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 30px;
+    color: rgba(231, 7, 7, 0.636);
+}
+.jj{
+    line-height: 30px;
+    font-family: cursive;
+}
+::placeholder{
+    color: beige;
+}
+#user{
+    padding: 4px 60px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 3px solid wheat;
+    color: azure;
+    outline: none;
+}
+#number{
+    padding: 4px 60px;
+    border: none;
+    color: azure;
+    background-color: transparent;
+    border-bottom: 3px solid wheat;
+    outline: none;
+}
+#yy{
+    margin-top: 20px;
+    padding: 5px 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: cyan;
+}
+.Details{
+    margin-top:20px;
+    padding: 5px 30px;
+    border-radius: 30px;
+    border: none;
+    background-color: cyan;
+}
+#yy:hover{
+    box-shadow:rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+     rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+      rgba(0, 0, 0, 0.06) 0px 2px 1px,
+       rgba(0, 0, 0, 0.09) 0px 4px 2px,
+        rgba(0, 0, 0, 0.09) 0px 8px 4px,
+         rgba(0, 0, 0, 0.09) 0px 16px 8px, 
+   rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    cursor: pointer;
+}
+.Details:hover{
+    box-shadow:rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+     rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+      rgba(0, 0, 0, 0.06) 0px 2px 1px,
+       rgba(0, 0, 0, 0.09) 0px 4px 2px,
+        rgba(0, 0, 0, 0.09) 0px 8px 4px,
+         rgba(0, 0, 0, 0.09) 0px 16px 8px, 
+   rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    cursor: pointer;
+}
+.uu{
+    font-size: 30px;
+}
+.ff{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+}
+#add{
+    color: aliceblue;
+    font-size: 20px;
+    z-index: 1;
+}
+#demo{
+    color: aliceblue;
+    font-size: 40px;
+}
+#dd{
+    display: flex;
+    justify-content: space-evenly;
+}
+#parent2{
+    display: flex;
+    justify-content: space-evenly;
+}
+#sa{
+    display: flex;
+    position: absolute;
+    left: 380px;
+    margin-top: -30px;
+    cursor: pointer;
+}
+#b{
+    display: flex;
+    position: absolute;
+    left: 830px;
+    margin-top: -30px;
+    cursor: pointer;
+}
+#c{
+    display: flex;
+    position: absolute;
+    left: 1280px;
+    margin-top: -30px;
+    cursor: pointer;
+}
+#qw{
+    background-color: cyan;
+    width: 100px;
+    height: 40px;
+    margin-left: 100px;
+    border: none;
+    border-radius: 20px;
+}
+#qw:hover{
+    cursor: pointer;
+    box-shadow:rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+     rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+      rgba(0, 0, 0, 0.06) 0px 2px 1px,
+       rgba(0, 0, 0, 0.09) 0px 4px 2px,
+        rgba(0, 0, 0, 0.09) 0px 8px 4px,
+         rgba(0, 0, 0, 0.09) 0px 16px 8px, 
+   rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+#nw{
+    background-color:cyan;
+    width: 100px;
+    height: 40px;
+    margin-left: 100px;
+    border: none;
+    margin-right: 100px;
+    border-radius: 20px;
+}
+#nw:hover{
+    cursor: pointer;
+    box-shadow:rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+     rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+      rgba(0, 0, 0, 0.06) 0px 2px 1px,
+       rgba(0, 0, 0, 0.09) 0px 4px 2px,
+        rgba(0, 0, 0, 0.09) 0px 8px 4px,
+         rgba(0, 0, 0, 0.09) 0px 16px 8px, 
+   rgba(0, 0, 0, 0.09) 0px 32px 16px;  
+}
+#mw{
+    background-color: cyan;
+    width: 100px;
+    height: 40px;
+    margin-left: 100px;
+    border: none;
+    border-radius: 20px;
+}
+#mw:hover{
+    cursor: pointer;
+    box-shadow:rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+     rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+      rgba(0, 0, 0, 0.06) 0px 2px 1px,
+       rgba(0, 0, 0, 0.09) 0px 4px 2px,
+        rgba(0, 0, 0, 0.09) 0px 8px 4px,
+         rgba(0, 0, 0, 0.09) 0px 16px 8px, 
+   rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+#parent3{
+    display: flex;
+    justify-content: space-evenly;
+}
+#parent4{
+    display: flex;
+    justify-content: space-evenly;
+}
+#parent5{
+    display: flex;
+    justify-content: space-evenly;
+}

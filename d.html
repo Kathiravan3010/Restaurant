@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery.js"></script>
+    <style>
+ h2:hover{
+border-bottom: 3px solid red;
+transform: scaleX(0.3);
+
+ }
+
+    </style>
+</head>
+<body>
+   <script>
+    $(document).ready(
+        function(){
+            $("li").mouseenter(
+                function(){
+                    $(this).css({"color":"red","border-bottom":"7px solid green"," transform":"scaleX(0)","width":"10px","transition":"5s"});
+                }
+            );
+            $("li").mouseleave(
+                function(){
+                    $(this).css({"color":"red","border-bottom":"7px solid red"," transform":"scaleX(5)","width":"70px","transition":"4s"});
+                }
+            );
+           
+        }
+    );
+   </script>
+      <h1>welc</h1> 
+      <h2>sssss</h2> 
+      <ul>
+        <li>home</li>
+        <li>home</li>
+        <li>home</li>
+        <li>home</li>
+        <li>home</li>
+      </ul>
+</body>
+</html>
